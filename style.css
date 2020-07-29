@@ -1,0 +1,136 @@
+/*
+Table of Contents
+------------------
+1.Header/Nav
+2.Body/Main
+3.Footer
+*/
+
+/*------------------------------------------Header/nav---------------------------------------------------------------------------------*/
+
+/*
+-Creates a black nav bar content box that extends the full width of the page.
+-All text within the navbar box will be centered. 
+*/
+
+nav {
+	font-size: 20px;
+	position: relative;
+	bottom: 8px;
+	text-align: center;
+	background-color: rgb(54, 54, 54);
+	height: 70px;
+	right: 8px;
+	width: 100.9%;
+}
+/*Space out the links */
+
+.nav-links-spacing {
+	position: relative;
+	top: 22px;
+	padding: 22px 25px;
+	padding-bottom: 23px;
+}
+/*Cancels the default(underline) text decoration of all links */
+
+a:link {
+	text-decoration: none;
+}
+/*Makes all link colors turn white when visited/clicked on*/
+
+a:visited {
+	color: rgb(236, 232, 228);
+}
+/*Changes the background color to white and the font color to black when mouse hovers over link of content box*/
+
+a:hover {
+	background-color: rgb(236, 232, 228);
+	color: rgb(54, 54, 54);
+}
+/*------------------------------------------Header/Nav---------------------------------------------------------------------------------*/
+
+/*------------------------------------------Body/Main---------------------------------------------------------------------------------*/
+
+/*Changes the background color font style and hides any overflowing box content */
+
+body {
+	background-color: rgb(236, 232, 228);
+	font-family: sans-serif;
+	overflow: hidden;
+}
+/*
+-Creates an orange background with white font color
+-Border edges are slightly curved
+*/
+
+.orange-border {
+	color: white;
+	background-color: orange;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px 50px;
+}
+/*center all text within box content*/
+
+section {
+	display: inline-block;
+	position: relative;
+	left: 1000px;
+	bottom: 550px;
+	text-align: center;
+}
+/*Center h1 header*/
+
+.text-center {
+	text-align: center;
+}
+/*
+-Change height and width of all images.
+-Make the border edges curved and the border black/thin
+*/
+
+img {
+	position: relative;
+	left: 300px;
+	height: 550px;
+	width: 26%;
+	border: thin solid black;
+	border-radius: 15px;
+}
+/*------------------------------------------Body/Main---------------------------------------------------------------------------------*/
+
+/*------------------------------------------Footer---------------------------------------------------------------------------------*/
+
+/*Creates a black content box with white text that extends the full width of the page*/
+
+footer {
+	text-align: center;
+	position: relative;
+	bottom: 364px;
+	right: 8px;
+	width: 100.9%;
+	color: white;
+	height: 200px;
+	background-color: black;
+}
+/*Re-position the text in footer content box*/
+
+.move-footer-text {
+	position: relative;
+	top: 70px;
+}
+/*Re-position h3 text in footer content box*/
+
+.move {
+	position: relative;
+	top: 15px;
+}
+/*------------------------------------------Footer---------------------------------------------------------------------------------*/
+
+/*CSS code minified/compressed to optimize webpage speed by reducing file size*/
+/*nav{font-size:20px;position:relative;bottom:8px;text-align:center;background-color:rgb(54,54,54);height:70px;right:8px;width:100.9%}.nav-links-spacing{position:relative;top:22px;padding:22px 25px;padding-bottom:23px}a:link{text-decoration:none}a:visited{color:rgb(236,232,228)}a:hover{background-color:rgb(236,232,228);color:rgb(54,54,54)}body{background-color:rgb(236,232,228);font-family:sans-serif;overflow:hidden}.orange-border{color:white;background-color:orange;border-radius:5px;display:inline-block;padding:5px 50px}section{display:inline-block;position:relative;left:1000px;bottom:550px;text-align:center}.text-center{text-align:center}img{position:relative;left:300px;height:550px;width:26%;border:thin solid black;border-radius:15px}footer{text-align:center;position:relative;bottom:364px;right:8px;width:100.9%;color:white;height:200px;background-color:black}.move-footer-text{position:relative;top:70px}.move{position:relative;top:15px}*/
+
+
+
+
+
