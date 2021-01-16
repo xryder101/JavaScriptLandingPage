@@ -22,8 +22,8 @@ nav {
 	height: 70px;
 	right: 8px;
 	width: 100.9%;
-}
-/*Space out the links */
+
+	/*Space out the links */
 
 .nav-links-spacing {
 	position: relative;
@@ -31,6 +31,9 @@ nav {
 	padding: 22px 25px;
 	padding-bottom: 23px;
 }
+
+}
+
 /*Cancels the default(underline) text decoration of all links */
 
 a:link {
@@ -112,19 +115,26 @@ footer {
 	color: white;
 	height: 200px;
 	background-color: black;
-}
-/*Re-position the text in footer content box*/
+
+	/*Re-position the text in footer content box*/
 
 .move-footer-text {
 	position: relative;
 	top: 70px;
-}
-/*Re-position h3 text in footer content box*/
+
+	/*Re-position h3 text in footer content box*/
 
 .move {
 	position: relative;
 	top: 15px;
 }
+
+}
+
+
+}
+
+
 /*------------------------------------------Footer---------------------------------------------------------------------------------*/
 
 /*CSS code minified/compressed to optimize webpage speed by reducing file size*/
